@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: gray;
+  color: black;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #771702;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #1c0500;
+}
+
+/* Header */
+header {
+  background-color: #771702;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 25px;
+  font-family: Cedarville Cursive;
+  margin-top: 2px;
+}
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #545454;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 30px;
+}
+
+main p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+main ul {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.author-photo {
+  max-width: 200px;
+  border-radius: 20%;
+  margin: 20px 0;
+}
+
+.book-cover {
+  max-width: 250px;
+  margin: 20px 0;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form label {
+  display: block;
+  margin-top: 20px;
+}
+
+form input[type='text'],
+form input[type='email'],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form input[type='submit'] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #771702;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form input[type='submit']:hover {
+  background-color: #1c0500;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
